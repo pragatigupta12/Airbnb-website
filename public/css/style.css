@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex:1
+}
+/* navbar */
+.navbar{
+    background-color: white !important;
+    height: 5rem;
+}
+.fa-airbnb{
+    font-size: 2.5rem !important;
+    color: brown;
+}
+.nav-link{
+    font-size: 1.2rem !important;
+}
+/* footer */
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+.f-socials i{
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.f-socials ,.f-links,.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-links a{
+    text-decoration: none !important;
+    color: black;
+}
+.f-links a:hover{
+    text-decoration: underline !important;
+} 
+/* cards */
+.listing-card{
+   border:  none !important;
+   margin-bottom: 2rem;
+}
+.card img{
+    border-radius: 1.5rem;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400 !important;
+}
+.card-link{
+    text-decoration: none !important;
+    color: #ffffff;
+}
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+/* show */
+.show-img{
+    height: 30vh;
+}
+
+
+
+/* maps */
+
+/* body { margin: 0; padding: 0; } */
+#map { 
+    height: 400px;
+    width: 80vh;
+ }
